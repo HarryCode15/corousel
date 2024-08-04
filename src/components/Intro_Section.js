@@ -1,6 +1,6 @@
 import clutster from "../images/photo_cluser.png"
 
-export default function Intro_Section(){
+export default function IntroSection(){
     return(
         <section className="intro">
             <img src={clutster} alt="Cluster" className="intro-img" />
