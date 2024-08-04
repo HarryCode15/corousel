@@ -44,7 +44,11 @@ nav{
   font-size: 12px;
   font-family: monospace;
   margin: 0px 26.5vw;
+}
 
+.card h2  {
+  font-size: 12px;
+  font-weight: normal;
 }
 
 .card-image{
