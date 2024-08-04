@@ -24,9 +24,49 @@ nav{
 .intro{
   padding: 20px;
   align-items: center;
-  text-align: center;
+  text-align: left;
 }
 
 .intro-header{
+  font-family: monospace;
+  font-size: 30px;
+  margin: 10px 25vw;
+}
 
+.intro-description{
+  font-size: 20px;
+  font-family: monospace;
+  margin: 0px 25vw;
+}
+
+.card{
+  width: 175px;
+  font-size: 12px;
+  font-family: monospace;
+  margin: 0px 26.5vw;
+
+}
+
+.card-image{
+  width: 100%;
+}
+
+.card-stat{
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.card-star{
+  width: 15px;
+  padding-right: 6px;
+}
+
+.gray{
+  color: rgb(129, 127, 127);
+  padding-left: 6px;
+}
+
+.cost{
+  font-weight: bold;
 }
