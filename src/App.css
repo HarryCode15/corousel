@@ -43,6 +43,16 @@ nav{
   width: 175px;
   font-size: 12px;
   font-family: monospace;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 30px;
+  overflow-x: auto;
   margin: 0px 26.5vw;
 }
 
@@ -53,6 +63,7 @@ nav{
 
 .card-image{
   width: 100%;
+  border-radius: 8px;
 }
 
 .card-stat{
@@ -70,6 +81,12 @@ nav{
   color: rgb(129, 127, 127);
   padding-left: 6px;
 }
+
+.card-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 
 .cost{
   font-weight: bold;
