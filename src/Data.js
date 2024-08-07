@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 export default [
   {
     id: 1,
@@ -41,4 +42,5 @@ export default [
     location: "Norway",
     openSpots: 3,
   },
+  
 ];
